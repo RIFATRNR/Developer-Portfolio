@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -24,3 +25,18 @@ section{
     margin: 20px;
     padding: 30px 0px 0px 50px;
 }
+.follow{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(230, 119, 78);
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
