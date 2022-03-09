@@ -3,8 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
-    
+    font-size: 50px; 
 }
 .orange-color{
     color: orange;
@@ -15,7 +14,7 @@ h1{
 h3{
     text-align: justify;
 }
-section{
+section {
     display: flex;
 }
 .container{
@@ -50,5 +49,23 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+} 
+.experience-section div{
+    width: 45%;
+    padding: 30px;
+    margin: 10px 50px;
+    border-left: 8px solid rgb(166, 193, 235);
+    box-shadow: 5px 10px 20px rgb(61, 60, 60);
 }
-    
+.experience-section {
+    background-image: url(images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.present{
+    color:rgb(63, 107, 250);
+}
+footer p{
+    text-align: center;
+    color: orange;
+}
